@@ -1,6 +1,3 @@
-
-
-
 export function map(array, callback) {
   const newArray = [];
 
