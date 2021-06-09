@@ -1,4 +1,4 @@
-import filter from './filter.js';
+import home from './filter.js';
 
 describe('filter', () => {
   it('filters the array', () => {
@@ -8,7 +8,7 @@ describe('filter', () => {
       return item[0] === 'c';
     };
 
-    const newArray = filter(array, parameters);
+    const newArray = home(array, parameters);
 
     expect(newArray).toEqual(['chelsea', 'christine']);
   });
